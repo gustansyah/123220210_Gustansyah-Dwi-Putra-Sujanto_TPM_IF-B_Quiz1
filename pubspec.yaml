@@ -1,0 +1,18 @@
+name: aplikasi_matematika
+description: A Flutter project to calculate various mathematical problems
+publish_to: 'none' # Remove this line if you are planning to publish the app
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Additional dependencies can go here
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/foto.jpg  # Pastikan path ini sesuai dengan lokasi file foto kamu
